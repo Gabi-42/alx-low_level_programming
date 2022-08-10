@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib>
+#include <stdlib.h>
 /**
  * main - prints opcode of a given machine.
  * @argc: number of arguments.
