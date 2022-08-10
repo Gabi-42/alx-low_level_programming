@@ -12,7 +12,7 @@ int (*get_op_func(char *s))(int, int)
 		{"-", op_sub},
 		{"*", op_mul},
 		{"/", op_div},
-		{"%", op_mod},
+		{"%", op_mob},
 		{NULL, NULL}
 	};
 	int i;
@@ -27,5 +27,5 @@ int (*get_op_func(char *s))(int, int)
 		}
 		i++;
 	}
-	return (NULL)
+	return (NULL);
 }
